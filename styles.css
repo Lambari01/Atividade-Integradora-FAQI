@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle, rgba(204, 231, 229, 1) 77%, rgba(228, 202, 224, 1) 97%);
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  max-width: 100vw;
+  text-align: center;
+}
+
+#cabecalho {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(228, 202, 224, 1) 16%, rgba(204, 231, 229, 1) 100%);
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+#cabecalho img{
+  max-width:200px;
+  height:auto;
+}
+
+
+#sobre{
+  display: block;
+  
+}
+
+#sobre img{
+  max-width: 700px;
+  height: 390px;
+  
+}
+
+#Logo {
+  flex: 1;
+  max-width: 230px;
+  max-height: auto;
+}
+
+#Titulo-da-Pagina {
+  color: #0097B2;
+  justify-content: center;
+  margin: 50px 475px;
+  padding: 1px;
+  font-size: larger;
+}
+
+.Texto1 {
+  font-size: large;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+p {
+  text-align: justify;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: large;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.Texto2 {
+  margin-top: auto;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#diferenciais{
+  list-style: inside;
+  margin-bottom: 20px;
+}
+
+#rodape {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(228, 202, 224, 1) 16%, rgba(204, 231, 229, 1) 100%);
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+#rodape img{
+  max-width:200px;
+  height:auto;
+}
